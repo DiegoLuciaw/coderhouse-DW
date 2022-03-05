@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/stylesgrid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<title>RESERVAS</title>
+</head>
+<body>
+    <section class="container">
+<header>
+    <div class="home">
+    <a href="../index.html"><img src="/assets/img/logotemporal.png" alt="logoesquina" width="100px" height="50px"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="./historia.html">HISTORIA</a></li>
+            <li><a href="./restaurante.html">RESTAURANTE</a></li>
+            <li><a href="./cocina.html">COCINA</a></li>
+            <li><a href="./carta.html">CARTA</a></li>
+            <li><a href="reservas.html">RESERVAS</a></li>
+        </ul>
+    </nav>
+</header>   
+
+<main class="reservas">
+    <h2>RESERVAS</h2>
+    <section class="calendar">
+        <img src="/assets/img/almanaque.png" alt="calendario">
+        <div class="mediosdepago">
+            <span><i class="fab fa-cc-visa"></i></span>
+            <span><i class="fas fa-qrcode"></i></span>
+            <span><i class="fab fa-cc-mastercard"></i></span>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <form action="#">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder=" Apellido">
+        </form>
+        </div>
+        <div>
+            <form action="#">
+                <input type="number" placeholder="Cantidad Personas" >
+                <select name="Area" id="Area">
+                    <option value="Fumador">Fumador (exterior)</option>
+                    <option value="exterior">Exterior</option>
+                    <option value="Zona">Zona Tv</option>
+                    <option value="Interior">Interior</option>
+                    <option value="Niños">Niños</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <textarea cols="30" rows="10" placeholder="Deje aqui otros requerimientos o necesidades."></textarea>
+            </form>
+        </div>
+        <div>Acepto los terminos y condiciones
+            <input type="checkbox" name="Acepto" value="1">
+        </div>
+        <div>
+            <input type="submit"value="Enviar">
+            <input type="reset"value="Reset">
+        </div>
+    </section>
+
+    <div>
+        <h2>UBICACION</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.1755667064414!2d-4.698899809546721!3d40.65613904253948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd40f31c822e7849%3A0x1147fc5b639291ea!2sRestaurante%20Medieval!5e0!3m2!1ses!2sar!4v1643886068055!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </main>
+
+    <footer>
+        <div class="address">
+            <h4>C. Enrique Larreta, 3, 05001 Ávila, España.</h4>
+        </div>
+        
+        <div class="redes">
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></i></span>
+            <span><i class="fab fa-twitter"></i></i></span>
+            <span><i class="fas fa-at"></i></span>
+        </div>
+    </footer>  
+</section>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>  
